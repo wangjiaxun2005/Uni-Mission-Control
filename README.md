@@ -37,7 +37,7 @@ To solve the common "flicker" issue in WebKit-based widgets during high-frequenc
 ## Setup and Customization
 
 ### Prerequisites
-- [Übersicht]([https://uebersicht.org/](https://tracesof.net/uebersicht/)) for macOS.
+- [Übersicht]((https://tracesof.net/uebersicht/)) for macOS.
 
 ### Installation
 1. Move the `index.jsx` (or `Exam countdown.jsx`) file into your Übersicht widgets folder.
