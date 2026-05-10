@@ -18,18 +18,22 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 ### ✨ Key Features
 * **Dynamic Layout**: Window height automatically adjusts based on task count with smooth `cubic-bezier` animations.
 * **Smart Sync**: 
-    * **Auto-Sync**: Automatically parses iCal subscription URLs (Moodle/Canvas).
+    * **Auto-Sync**: Automatically parses iCal subscription URLs from Moodle/Canvas.
     * **AI Import**: Built-in AI Prompt helps transform raw text into valid JSON mission formats.
 * **Visual Excellence**: 
     * **Glassmorphism**: Deep frosted glass texture designed to match macOS modern aesthetics.
     * **Status Indicators**: Past events automatically dim and display an "ENDED" tag for clarity.
 * **GUI Customization**: Integrated settings panel to adjust accent colors, text colors, and blur intensity without touching code.
 
-### 🛠️ One-Click Installation (Recommended)
-1.  **Requirement**: Ensure you have [Übersicht](https://tracesof.net/uebersicht/) installed.
-2.  **Download**: Click `Code` -> `Download ZIP` and extract the package.
-3.  **Run**: Double-click **`Install_Widget.app`** (or your designated installer app).
-4.  **Done**: The widget will be moved to the widgets folder and refreshed automatically.
+### 🛠️ Installation
+#### Option A: Full-Pack (Recommended for New Users)
+1. Go to the **Releases** page of this repository.
+2. Download the `Uni-Mission-Control-Full-Pack.zip`.
+3. Extract the ZIP and double-click **`Install_Widget.app`**. This pack includes the Übersicht app itself.
+
+#### Option B: Manual Installation
+1. Ensure you have [Übersicht](https://tracesof.net/uebersicht/) installed and moved to your `/Applications` folder.
+2. Download this repository and move the **`Uni_Mission_Control.widget`** folder to your Übersicht widgets directory.
 
 ---
 
@@ -54,11 +58,15 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
     * **状态识别**：已结束的事件会自动变淡并显示 “ENDED” 标签。
 * **图形化定制**：内置设置面板，可直接自定义强调色、文字颜色及背景模糊度。
 
-### 🛠️ 一键安装 (推荐)
-1.  **前提条件**：请确保已安装 [Übersicht 原生软件](https://tracesof.net/uebersicht/)。
-2.  **下载项目**：点击页面右上方 `Code` -> `Download ZIP` 并解压。
-3.  **运行工具**：在文件夹中双击 **`安装插件.app`**。
-4.  **安装完成**：脚本会自动将插件移动至正确目录并刷新桌面预览。
+### 🛠️ 安装指南
+#### 方案 A：全家桶安装（推荐新手使用）
+1. 前往本仓库的 **Releases** 页面。
+2. 下载 `Uni-Mission-Control-Full-Pack.zip`。
+3. 解压后直接双击运行 **`安装插件.app`**。该包内已包含 Übersicht 原生软件。
+
+#### 方案 B：手动安装
+1. 确保您已安装 [Übersicht](https://tracesof.net/uebersicht/) 并将其移至“应用程序”文件夹。
+2. 下载本项目，将 **`Uni_Mission_Control.widget`** 文件夹 放入 Übersicht 的插件目录中。
 
 ---
 
@@ -70,7 +78,9 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 │   ├── index.jsx                 # 插件入口 / Entry point
 │   ├── App.jsx                   # 逻辑核心 / UI Logic
 │   ├── api.jsx                   # 数据解析 / Data Parsing
-│   └── ...
+│   ├── styles.jsx                # 样式定义 / Styles
+│   ├── Settings.jsx              # 设置面板 / Settings
+│   └── ImportModal.jsx           # 导入面板 / Import Modal
 ├── 安装插件.app (Install.app)     # 一键安装工具 / One-click installer
 ├── README.md                     # 说明文档 / Documentation
 └── image_cf9a5a.jpg              # 预览截图 / Preview screenshot
