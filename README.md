@@ -12,7 +12,7 @@
 Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widget provides a transparent, "jelly-like" elastic mission monitoring panel. It features automatic Moodle/iCal synchronization and AI-driven field recognition.
 
 ### 📸 Preview
-![Widget Preview](image_cf9a5a.jpg) 
+![Widget Preview](preview.png) 
 *(The panel displays countdowns, progress bars, and calendar details)*
 
 ### ✨ Key Features
@@ -45,7 +45,7 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 基于 [Übersicht](https://tracesof.net/uebersicht/) 框架开发，提供具有“果冻感”弹性动画的任务监控面板。支持 Moodle/iCal 自动同步及 AI 智能字段识别。
 
 ### 📸 预览
-![插件预览](image_cf9a5a.jpg) 
+![插件预览](preview.png) 
 *(面板展示了任务倒计时、年度进度条以及详细的日历日程)*
 
 ### ✨ 核心特性
@@ -62,11 +62,11 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 #### 方案 A：全家桶安装（推荐新手使用）
 1. 前往本仓库的 **Releases** 页面。
 2. 下载 `Uni-Mission-Control-Full-Pack.zip`。
-3. 解压后直接双击运行 **`安装插件.app`**。该包内已包含 Übersicht 原生软件。
+3. 解压缩后直接双击运行 **`安装插件.app`**。该包内已包含 Übersicht 原生软件。
 
 #### 方案 B：手动安装
 1. 确保您已安装 [Übersicht](https://tracesof.net/uebersicht/) 并将其移至“应用程序”文件夹。
-2. 下载本项目，将 **`Uni_Mission_Control.widget`** 文件夹 放入 Übersicht 的插件目录中。
+2. 下载本项目，将 **`Uni_Mission_Control.widget`** 文件夹放入 Übersicht 的插件目录中。
 
 ---
 
@@ -81,6 +81,6 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 │   ├── styles.jsx                # 样式定义 / Styles
 │   ├── Settings.jsx              # 设置面板 / Settings
 │   └── ImportModal.jsx           # 导入面板 / Import Modal
-├── 安装插件.app (Install.app)     # 一键安装工具 / One-click installer
+├── Double Click To Install.app.zip # 一键安装工具 / One-click installer
 ├── README.md                     # 说明文档 / Documentation
-└── image_cf9a5a.jpg              # 预览截图 / Preview screenshot
+└── preview.png                   # 预览截图 / Preview screenshot
