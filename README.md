@@ -1,50 +1,76 @@
-# Desktop Mission Control: Integrated Academic Dashboard
+# 🚀 Uni Mission Control
 
-## Project Overview
-**Desktop Mission Control** is a high-performance desktop widget built for the **Übersicht** platform using **React**. It is designed to act as a centralized hub for academic and personal scheduling, combining real-time data synchronization with an elegant, system-integrated aesthetic.
+[**English**](#-uni-mission-control-en) | [**中文说明**](#-uni-mission-control-zh)
 
-The widget provides a live snapshot of your semester's progress, upcoming deadlines from institutional sources (like HKU Moodle), and personal milestones, all rendered directly onto the macOS desktop.
+---
 
-## Core Functional Modules
+<a name="-uni-mission-control-en"></a>
+## 🇬🇧 Uni Mission Control (English)
 
-### 1. Yearly Progress Tracker
-- **Real-time Visualization**: Displays the current percentage of the year completed.
-- **Dynamic Calculation**: Automatically updates based on the current date, providing a constant macro-perspective on time management.
+**An aesthetic, high-performance mission management widget for macOS.**
 
-### 2. Intelligent Task Sidebar
-- **Hybrid Data Integration**: Merges automated data from external URLs (via `.ics` parsing) with manually defined entries in `customEvents`.
-- **Global Sorting**: Intelligently ranks all upcoming tasks by proximity to the current time.
-- **Single Focus Primary Card**: Isolates and highlights the most immediate task with a high-visibility, large-scale countdown.
-- **Scrollable Secondary List**: Organizes subsequent tasks in an elegant, scrollable container with an invisible scrollbar to maintain UI cleanliness.
+Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widget provides a transparent, "jelly-like" elastic mission monitoring panel. It features automatic Moodle/iCal synchronization and AI-driven field recognition.
 
-### 3. Interactive Multi-Month Calendar
-- **Dynamic Navigation**: Users can browse across different months using intuitive navigation arrows.
-- **"Return to Today" Utility**: A centralized hollow-circle icon allows for instant re-centering of the view to the current date and month.
-- **Comprehensive History**: Unlike standard lists, the calendar displays both past and future events (with past events styled as "Ended") to provide a full monthly context.
+### 📸 Preview
+![Widget Preview](image_cf9a5a.jpg) 
+*(The panel displays countdowns, progress bars, and calendar details)*
 
-## Technical Specifications & Performance
+### ✨ Key Features
+* **Dynamic Layout**: Window height automatically adjusts based on task count with smooth `cubic-bezier` animations.
+* **Smart Sync**: 
+    * **Auto-Sync**: Automatically parses iCal subscription URLs (Moodle/Canvas).
+    * **AI Import**: Built-in AI Prompt helps transform raw text into valid JSON mission formats.
+* **Visual Excellence**: 
+    * **Glassmorphism**: Deep frosted glass texture designed to match macOS modern aesthetics.
+    * **Status Indicators**: Past events automatically dim and display an "ENDED" tag for clarity.
+* **GUI Customization**: Integrated settings panel to adjust accent colors, text colors, and blur intensity without touching code.
 
-### 🎨 Aesthetics: Apple-Style Glassmorphism
-- **Liquid Border**: Implements a sophisticated multi-layered border using `box-shadow` and `inset` properties to mimic the "Liquid" aesthetic of modern macOS interfaces.
-- **Variable Transparency**: Utilizes `backdrop-filter: blur(30px)` and adjustable alpha channels to ensure optimal legibility against any wallpaper.
+### 🛠️ One-Click Installation (Recommended)
+1.  **Requirement**: Ensure you have [Übersicht](https://tracesof.net/uebersicht/) installed.
+2.  **Download**: Click `Code` -> `Download ZIP` and extract the package.
+3.  **Run**: Double-click **`Install_Widget.app`** (or your designated installer app).
+4.  **Done**: The widget will be moved to the widgets folder and refreshed automatically.
 
-### ⚡ Performance Engineering (Anti-Flicker)
-To solve the common "flicker" issue in WebKit-based widgets during high-frequency updates (every second), the following "extreme" optimizations were implemented:
-- **GPU Layer Separation**: Forced hardware acceleration via `transform: translate3d(0,0,0)` to separate the background, UI frame, and dynamic text into distinct compositor layers.
-- **Micro-State Isolation**: The real-time second counter is isolated within a dedicated `<LiveCountdown />` component. This prevents the entire dashboard from re-rendering every second.
-- **Rendering Constraints**: Utilized the CSS `contain` property (`layout`, `paint`, `style`) to prevent style recalculations from leaking across component boundaries.
+---
 
-## Setup and Customization
+<a name="-uni-mission-control-zh"></a>
+## 🇨🇳 Uni Mission Control (中文说明)
 
-### Prerequisites
-- [Übersicht]((https://tracesof.net/uebersicht/)) for macOS. https://tracesof.net/uebersicht/
+**一款为 macOS 打造的极致美学任务管理插件。**
 
-### Installation
-1. Move the `index.jsx` (or `Exam countdown.jsx`) file into your Übersicht widgets folder.
-2. The widget will automatically initialize and attempt to fetch the remote calendar data.
+基于 [Übersicht](https://tracesof.net/uebersicht/) 框架开发，提供具有“果冻感”弹性动画的任务监控面板。支持 Moodle/iCal 自动同步及 AI 智能字段识别。
 
-### Configuration
-- **Data Source**: Modify the `MOODLE_URL` constant at the top of the script to point to your specific `.ics` feed.
-- **Manual Tasks**: Add permanent or offline tasks to the `customEvents` array using the following schema:
-  ```javascript
-  { code: "COURSE_CODE", name: "Event Name", date: "YYYY-MM-DDTHH:MM:SS" }
+### 📸 预览
+![插件预览](image_cf9a5a.jpg) 
+*(面板展示了任务倒计时、年度进度条以及详细的日历日程)*
+
+### ✨ 核心特性
+* **动态布局**：窗口高度随任务数量自动伸缩，并带有丝滑的弹性过渡动画。
+* **多维同步**：
+    * **自动订阅**：支持自动解析 iCal 订阅链接（如 Moodle/Canvas）。
+    * **AI 导入**：内置 AI Prompt 引导，支持将繁杂的文本一键转化为标准的 JSON 任务字段。
+* **极致视觉**：
+    * **磨砂玻璃**：完美契合 macOS 系统的深色毛玻璃质感设计。
+    * **状态识别**：已结束的事件会自动变淡并显示 “ENDED” 标签。
+* **图形化定制**：内置设置面板，可直接自定义强调色、文字颜色及背景模糊度。
+
+### 🛠️ 一键安装 (推荐)
+1.  **前提条件**：请确保已安装 [Übersicht 原生软件](https://tracesof.net/uebersicht/)。
+2.  **下载项目**：点击页面右上方 `Code` -> `Download ZIP` 并解压。
+3.  **运行工具**：在文件夹中双击 **`安装插件.app`**。
+4.  **安装完成**：脚本会自动将插件移动至正确目录并刷新桌面预览。
+
+---
+
+### 📂 仓库结构 / Repository Structure
+
+```text
+.
+├── Uni_Mission_Control.widget/   # 核心代码文件夹 / Core widget code
+│   ├── index.jsx                 # 插件入口 / Entry point
+│   ├── App.jsx                   # 逻辑核心 / UI Logic
+│   ├── api.jsx                   # 数据解析 / Data Parsing
+│   └── ...
+├── 安装插件.app (Install.app)     # 一键安装工具 / One-click installer
+├── README.md                     # 说明文档 / Documentation
+└── image_cf9a5a.jpg              # 预览截图 / Preview screenshot
