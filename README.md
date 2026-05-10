@@ -13,7 +13,6 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 
 ### 📸 Preview
 ![Widget Preview](preview.png) 
-*(The panel displays countdowns, progress bars, and calendar details)*
 
 ### ✨ Key Features
 * **Dynamic Layout**: Window height automatically adjusts based on task count with smooth elastic animations.
@@ -22,9 +21,10 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 * **Visual Excellence**: Deep frosted glass texture designed to match macOS modern aesthetics.
 
 ### 🛠️ Installation (Manual)
-1. **Prepare**: Download and install [Übersicht](https://tracesof.net/uebersicht/) (official website).
-2. **Open Folder**: Click the `Ü` icon in your Mac's top menu bar and select **"Open Widgets Folder"**.
-3. **Drag & Drop**: Drag the downloaded **`Uni_Mission_Control.widget`** folder directly into the folder that just opened.
+1. **Prepare**: Download [Übersicht](https://tracesof.net/uebersicht/). 
+   * ⚠️ **IMPORTANT**: **Do NOT** move the Übersicht app to your `/Applications` folder. Keep it in your downloads or a local folder to ensure the "Open Widgets Folder" function works correctly.
+2. **Open Folder**: Open the Übersicht app, click the `Ü` icon in your menu bar, and select **"Open Widgets Folder"**.
+3. **Install**: Drag the **`Uni_Mission_Control.widget`** folder into the folder that just opened.
 
 ---
 
@@ -37,25 +37,24 @@ Built on the [Übersicht](https://tracesof.net/uebersicht/) framework, this widg
 
 ### 📸 预览
 ![插件预览](preview.png) 
-*(面板展示了任务倒计时、年度进度条以及详细的日历日程)*
 
 ### ✨ 核心特性
 * **动态布局**：窗口高度随任务数量自动伸缩，并带有丝滑的弹性过渡动画。
 * **多维同步**：自动解析 iCal 订阅链接（如 Moodle/Canvas）。
-* **AI 导入**：内置 AI Prompt 引导，支持将繁杂的文本一键转化为标准的 JSON 任务字段。
+* **AI 导入**：内置 AI Prompt 引导，支持将文本一键转化为标准的 JSON 任务字段。
 * **极致视觉**：完美契合 macOS 系统的深色毛玻璃质感设计。
 
 ### 🛠️ 安装指南 (手动安装)
-1. **下载软件**：前往 [官网](https://tracesof.net/uebersicht/) 下载并打开 **Übersicht**。
-2. **打开目录**：点击 Mac 屏幕顶部菜单栏的 `Ü` 图标，选择 **"Open Widgets Folder"**。
-3. **完成安装**：将下载解压好的 **`Uni_Mission_Control.widget`** 文件夹整体拖入打开的文件夹中即可。
+1. **准备环境**：前往 [官网](https://tracesof.net/uebersicht/) 下载 **Übersicht**。
+   * ⚠️ **重要提示**：**请勿** 将 Übersicht 软件移动到系统的“应用程序 (Applications)”文件夹中。请将其保留在下载目录或本地文件夹内运行，以确保“Open Widgets Folder”功能正常响应。
+2. **打开目录**：打开软件后，点击菜单栏的 `Ü` 图标，选择 **"Open Widgets Folder"**。
+3. **完成安装**：将下载好的 **`Uni_Mission_Control.widget`** 文件夹整体拖入打开的文件夹中即可。
 
 ---
 
 ### 📂 仓库结构 / Repository Structure
-
 ```text
 .
-├── Uni_Mission_Control.widget/   # 核心代码文件夹 / Core widget folder
-├── README.md                     # 说明文档 / Documentation
-└── preview.png                   # 预览截图 / Preview screenshot
+├── Uni_Mission_Control.widget/   # 核心代码文件夹
+├── README.md                     # 说明文档
+└── preview.png                   # 预览截图
