@@ -57,7 +57,7 @@ This project is licensed under the MIT License.
 
 | 世界点阵地图 | 数字时钟模式 |
 | :---: | :---: |
-| ![Map](UMCpics/preview_map.png) | ![Clock](UMCpics/preview_clock.png) |
+| ![Map](UMCpics/preview_map.jpg) | ![Clock](UMCpics/preview_clock.png) |
 
 | 数据管理中心 | 偏好设置 |
 | :---: | :---: |
