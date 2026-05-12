@@ -6,15 +6,15 @@ Uni Mission Control is a sophisticated desktop widget for macOS, built on **Üeb
 
 | Level 1: Compact | Level 2: List | Level 3: Full Calendar |
 | :---: | :---: | :---: |
-| ![Level 1](preview_level1.png) | ![Level 2](preview_level2.jpg) | ![Level 3](preview_level3.jpg) |
+| ![Level 1](UMCpics/preview_level1.png) | ![Level 2](UMCpics/preview_level2.jpg) | ![Level 3](UMCpics/preview_level3.jpg) |
 
 | World Map Mode | Digital Clock Mode |
 | :---: | :---: |
-| ![Map](preview_map.png) | ![Clock](preview_clock.png) |
+| ![Map](UMCpics/preview_map.png) | ![Clock](UMCpics/preview_clock.png) |
 
 | Data Control Center | Preferences |
 | :---: | :---: |
-| ![Import](preview_import.jpg) | ![Settings](preview_settings.png) |
+| ![Import](UMCpics/preview_import.jpg) | ![Settings](UMCpics/preview_settings.png) |
 
 ## ✨ Key Features
 
@@ -53,15 +53,15 @@ This project is licensed under the MIT License.
 
 | 等级 1：核心倒计时 | 等级 2：任务列表 | 等级 3：完整日历 |
 | :---: | :---: | :---: |
-| ![Level 1](preview_level1.png) | ![Level 2](preview_level2.jpg) | ![Level 3](preview_level3.jpg) |
+| ![Level 1](UMCpics/preview_level1.png) | ![Level 2](UMCpics/preview_level2.jpg) | ![Level 3](UMCpics/preview_level3.jpg) |
 
 | 世界点阵地图 | 数字时钟模式 |
 | :---: | :---: |
-| ![Map](preview_map.png) | ![Clock](preview_clock.png) |
+| ![Map](UMCpics/preview_map.png) | ![Clock](UMCpics/preview_clock.png) |
 
 | 数据管理中心 | 偏好设置 |
 | :---: | :---: |
-| ![Import](preview_import.jpg) | ![Settings](preview_settings.png) |
+| ![Import](UMCpics/preview_import.jpg) | ![Settings](UMCpics/preview_settings.png) |
 
 ## ✨ 核心特性
 
