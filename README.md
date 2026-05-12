@@ -10,7 +10,7 @@ Uni Mission Control is a sophisticated desktop widget for macOS, built on **Üeb
 
 | World Map Mode | Digital Clock Mode |
 | :---: | :---: |
-| ![Map](UMCpics/preview_map.png) | ![Clock](UMCpics/preview_clock.png) |
+| ![Map](UMCpics/preview_map.jpg) | ![Clock](UMCpics/preview_clock.png) |
 
 | Data Control Center | Preferences |
 | :---: | :---: |
